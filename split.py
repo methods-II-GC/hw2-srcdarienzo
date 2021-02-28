@@ -51,8 +51,10 @@ def write_tags(path: str, corpus: list) -> None:
                 counter += 1
             sentence_counter += 1
         logging.info(
-            f"{path} contains {token_counter} tokens "
-            + f"across {sentence_counter} sentences."
+            "%s has %s tokens across %s sentences",
+            path,
+            token_counter,
+            sentence_counter,
         )
 
 
