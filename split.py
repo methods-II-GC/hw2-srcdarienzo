@@ -85,7 +85,7 @@ if __name__ == "__main__":
         "--verbose",
         action="store_true",
         required=False,
-        help="enables verbose mode",
+        help="enables verbose mode"
     )
     parser.add_argument("input", help="input initial data file")
     parser.add_argument("train", help="output training data file")
